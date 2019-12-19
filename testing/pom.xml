@@ -29,12 +29,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>
-				</exclusion>
-			</exclusions>
+
 			<version>2.1.0.RELEASE</version>
 
 		</dependency>
@@ -55,12 +50,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>
-				</exclusion>
-			</exclusions>
 			<version>2.1.0.RELEASE</version>
 
 		</dependency>
@@ -122,14 +111,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- H2 -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-			<version>1.4.196</version>
-		</dependency>
-
 		<!-- LOGGING -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -149,11 +130,7 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.5</version>
 		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.5</version>
-		</dependency>
+
 
 		<!-- READ YAML FILE -->
 		<dependency>

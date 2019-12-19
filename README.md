@@ -16,8 +16,16 @@ Contributors:
 
 This Repository contains necessary tests for Eclipse Kuksa Platforms.
 
-Currently, Eclipse HONO API (including MQTT) and Hawkbit API tests are implemented.
-Appstore tests will follow as well as a Jenkins CI config file.
+Module and Integration Test Suite containing 40 Tests in the Kuksa context.
+
+Covers:
+Eclipse Hono
+Eclipse Hawkbit
+Kuksa Appstore
+Kuka Invehicle Platform Integration
+
+Jenkins setup via Spring parameters
+Tests can be modified via the TestData files in testing/src/test/resources/testData
 
 # Getting Started with Eclipse Kuksa
 

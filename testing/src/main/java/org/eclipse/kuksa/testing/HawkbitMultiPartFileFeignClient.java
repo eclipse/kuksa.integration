@@ -23,7 +23,7 @@ import feign.Param;
 import feign.Response;
 
 
-@FeignClient(name = "feign-client", url = "http://hawkbit-appstacle.westeurope.cloudapp.azure.com:8080", configuration = HawkBitConfiguration.class)
+@FeignClient(name = "feign-client", url = "${hawkbit_address}", configuration = HawkBitConfiguration.class)
 public interface HawkbitMultiPartFileFeignClient {
 
 	@RequestMapping(value = "rest/v1/softwaremodules/{softwareModuleId}/artifacts", method = RequestMethod.POST)
